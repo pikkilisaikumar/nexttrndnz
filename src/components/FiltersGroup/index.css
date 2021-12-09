@@ -1,0 +1,45 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.inputContainer {
+  background-color: #f1f5f9;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  justify-content: space-around;
+}
+.categoryheadingone {
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.containercategoryone {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+.inputtextelement {
+  outline: None;
+  border-width: 0px;
+  background-color: transparent;
+}
+.clearfilterbutton {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* Write your CSS here */

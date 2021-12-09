@@ -1,0 +1,11 @@
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.image {
+  height: 25px;
+  width: 110px;
+}
+.list-item-one {
+  list-style-type: None;
+}
